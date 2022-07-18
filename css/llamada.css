@@ -1,0 +1,54 @@
+.llamada  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--background-blanco);
+    text-align: center;
+    
+    background-color: var(--background-llamada-mobile);
+
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.llamada__titulo {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.llamada__texto {
+    font-size: 1.25rem;
+    line-height: normal;
+
+    margin: 0 auto 2.5rem;
+}
+
+/*container links redes sociales*/
+section.title div.title__div div.title__container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0px;
+    width: 500px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 16px;
+}
+
+@media screen and (min-width: 1024px){
+    .llamada {
+        background-color: blueviolet;
+        background-size: cover;
+        padding-top: 8.25rem;
+    }
+    .llamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}

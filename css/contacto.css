@@ -1,0 +1,109 @@
+/*Contacto*/
+
+section.formcontato{
+    /*margin: 64px 100px;*/
+    padding: 32px 0;
+    background-color: rgb(211, 209, 218); 
+}
+
+section.formcontato div.formcontato__contacto{
+    justify-content: space-around;
+    /*align-content: flex-start;*/
+    align-items: center;
+    display: flex;
+    margin: 64px 100px;
+}
+
+div.formcontato__contacto div.formcontato--esquerda{
+    padding: 2%;
+}
+
+div.formcontato__text h2.formcontato__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 15px;
+}
+
+div.formcontato__text h3.formcontato__subtext{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+div.formcontato__text form.formcontato__form{
+    width: 100%;
+    max-width: 900px;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+div.formcontato__text form.formcontato__form input.formcontato__input{
+    margin: 4px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    border: #146fe6;
+}
+
+div.formcontato__text form.formcontato__form input.formcontato__input:nth-child(2) {
+    border-bottom: 1.5px solid #2A7AE4;
+}
+
+div.formcontato__text form.formcontato__form textarea.formcontato__textarea{
+    margin: 4px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    resize: none;
+    border: #146fe6;
+}
+
+#mail::placeholder { color:#146fe6; }
+
+div.formcontato__text form.formcontato__form button.formcontato__botao{
+    font-size: 1rem;
+    margin: 4px;
+    /*margin: 1rem 1rem 0 1rem;*/
+    width: 12rem;
+    min-width: 6rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    transition: 1s all;
+    background-color: #146fe6;
+    color: #ebf3f6;
+    border: none;
+    cursor: pointer;
+    /*fuente*/
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+div.formcontato__text form.formcontato__form button.formcontato__botao:hover {
+    transition: .2s all;
+    background-color: rgb(174, 208, 252);
+    color: rgb(8, 8, 8);
+}
+
+.formcontato__img    {
+    display: none;
+}
+
+@media only screen and (min-width:400px) 
+{
+    .formcontato__img    {
+        display: block;
+    }
+}

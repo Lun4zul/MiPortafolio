@@ -1,0 +1,75 @@
+/* Experiencia Académica*/
+
+section.academic{
+    padding: 64px 0;
+    background-color: rgb(143, 141, 248);
+}
+
+/*titulo de la seccion*/
+section.academic h3.academic__title   {
+    font-size: 32px;
+    text-align: center;
+}
+
+
+
+
+
+section.academic div.academic__courses__box {
+    margin: 16px;
+    padding: 5px;
+    width: 340px;
+    height: 230px;
+    cursor: pointer;
+    background-color: var(--color-caja);
+    transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;  
+}
+
+
+section.academic div.academic__courses__box:hover{
+    box-shadow: 4px 4px 4px #CCC; 
+}
+
+section.academic div.academic__courses__box ul{
+    margin: 32px;
+    padding: 0;
+}
+
+section.academic div.academic__courses__box ul li{
+    padding: 0;
+    margin: 32px;
+}
+
+div.academic__courses__box ul li.academic__courses__item__img  {
+    background-color: var(--color-cajas);
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+    
+}
+div.academic__courses__box ul li.academic__courses__item__title   {
+    background-color: var(--color-cajas);
+    padding: 8%;
+    text-align: center;
+    
+}
+div.academic__courses__box ul li.academic__courses__item__subtitle  {
+    background-color: var(--color-cajas);
+    padding: 8%;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    section.academic div.academic__courses  {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 922px) {
+    section.academic div.academic__courses  {
+        display: flex;
+        justify-content: center;
+    }
+}
