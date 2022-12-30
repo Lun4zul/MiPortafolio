@@ -122,3 +122,4 @@ var mensajeValido = false;
 var btnEnviarMensaje = document.getElementById("enviarMensaje");
     btnEnviarMensaje.style.display="none";
 
+   
