@@ -35,10 +35,19 @@
     font-weight: 700;
 }
 
-.sobre_mi__imagen {
-    display: none;
-}
 
+
+.sobre_mi__imagen {
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 95%;
+    height: 320px;
+    width: 220px;
+    
+    
+}
 
 @media screen and (min-width: 1024px) {
     .sobre_mi {
@@ -57,10 +66,10 @@
     .sobre_mi__imagen {
         display: block;
         background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 30%;
-    height: 400px;
-    width: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30%;
+        height: 400px;
+        width: 400px;
     }
 }
